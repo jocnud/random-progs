@@ -34,6 +34,7 @@ public class LinkedList {
 		}
 		Node tempNode = tNode.next;
 		tNode.next=tempNode.next;
+		size--;
 		return head;
 	}
 
